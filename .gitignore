@@ -1,0 +1,24 @@
+# Dependencies and builds
+node_modules/
+.next/
+out/
+dist/
+coverage/
+.turbo/
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Uploaded media (keep the folder, not the files)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Assignment brief (not part of the application)
+B14-A8-Cat_Harry.md
